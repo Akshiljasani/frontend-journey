@@ -31,5 +31,10 @@
   },
   "files.watcherExclude": {
     "**/node_modules/**": true
-  }
+  },
+
+  // Compact UI tweaks (medium)
+  "window.zoomLevel": 0,
+  "explorer.compactFolders": true,
+  "workbench.tree.indent": 12
 }
