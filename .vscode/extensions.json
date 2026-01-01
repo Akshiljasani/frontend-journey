@@ -1,0 +1,31 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint", // ESLint
+    "esbenp.prettier-vscode", // Prettier formatter
+    "christian-kohler.path-intellisense", // Path Intellisense
+    "eg2.vscode-npm-script", // NPM scripts
+    "msjsdiag.debugger-for-chrome", // Chrome debugger
+    "ritwickdey.LiveServer", // Live Server
+    "formulahendry.auto-close-tag", // Auto close tag
+    "formulahendry.auto-rename-tag", // Auto rename tag
+    "zhuangtongfa.material-theme", // Theme (optional)
+    "bradlc.vscode-tailwindcss", // Tailwind CSS IntelliSense
+    "dsznajder.es7-react-js-snippets", // React snippets
+    "eamodio.gitlens", // GitLens
+
+    // Snippets
+    "abusaidm.html-snippets", // HTML snippets
+    "xabikos.JavaScriptSnippets", // JavaScript snippets
+    "sdras.vue-vscode-snippets", // Vue snippets
+    "JamesBirtles.svelte-snippets", // Svelte snippets
+    "johnpapa.Angular2", // Angular snippets
+
+    // Framework & tooling
+    "johnsoncodehk.volar", // Vue 3 (Volar)
+    "angular.ng-template", // Angular Language Service
+    "svelte.svelte-vscode", // Svelte
+    "Orta.vscode-jest", // Jest test runner
+    "stylelint.vscode-stylelint", // Stylelint
+    "ritwickdey.live-sass" // Live Sass
+  ]
+}

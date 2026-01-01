@@ -3,8 +3,33 @@
     "PowerShell (with oh-my-posh)": {
       "source": "PowerShell",
       "icon": "terminal-powershell",
-      "args": ["-NoExit", "-Command", ". 'C:\\Users\\lenovo\\AppData\\Local\\PowerShell\\profile_custom.ps1'"]
+      "args": [
+        "-NoExit",
+        "-Command",
+        ". 'C:\\Users\\lenovo\\AppData\\Local\\PowerShell\\profile_custom.ps1'"
+      ]
     }
   },
-  "terminal.integrated.defaultProfile.windows": "PowerShell (with oh-my-posh)"
+  "terminal.integrated.defaultProfile.windows": "PowerShell (with oh-my-posh)",
+
+  // Frontend niceties
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "files.exclude": {
+    "**/.next": true,
+    "**/dist": true,
+    "**/build": true
+  },
+  "files.watcherExclude": {
+    "**/node_modules/**": true
+  }
 }
